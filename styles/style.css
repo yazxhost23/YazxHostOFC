@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background: #1e293b;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.hero {
+    padding: 50px;
+    background: linear-gradient(45deg, #2563eb, #1e40af);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.game img {
+    width: 100px;
+    border-radius: 10px;
+}
+footer {
+    background: #1e293b;
+    padding: 10px;
+    margin-top: 20px;
+}
+.topup-container {
+    background: #1e293b;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #38bdf8;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.auth-container {
+    background: #1e293b;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #38bdf8;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.dashboard-container {
+    background: #1e293b;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background: #38bdf8;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
