@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Up Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Top-Up Game</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <section class="topup-container">
+        <h2>Pilih Game & Lakukan Top-Up</h2>
+        
+        <label for="game">Pilih Game:</label>
+        <select id="game">
+            <option value="freefire">Free Fire</option>
+            <option value="pubg">PUBG Mobile</option>
+            <option value="mlbb">Mobile Legends</option>
+            <option value="cod">Call of Duty Mobile</option>
+            <option value="minecraft">Minecraft</option>
+        </select>
+
+        <label for="user-id">Masukkan ID Pemain:</label>
+        <input type="text" id="user-id" placeholder="Masukkan ID game">
+
+        <label for="jumlah-diamond">Pilih Jumlah Diamond/Koin:</label>
+        <select id="jumlah-diamond">
+            <option value="100">100 Diamond</option>
+            <option value="250">250 Diamond</option>
+            <option value="500">500 Diamond</option>
+            <option value="1000">1000 Diamond</option>
+        </select>
+
+        <label for="metode-pembayaran">Pilih Metode Pembayaran:</label>
+        <select id="metode-pembayaran">
+            <option value="qris">QRIS</option>
+            <option value="dana">DANA</option>
+            <option value="ovo">OVO</option>
+            <option value="gopay">GoPay</option>
+        </select>
+
+        <button onclick="prosesTopUp()">Lanjutkan Pembayaran</button>
+    </section>
+
+    <script src="scripts/topup.js"></script>
+</body>
+</html>

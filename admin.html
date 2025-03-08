@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard Admin</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-container">
+        <h2>Kelola Transaksi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pengguna</th>
+                    <th>Game</th>
+                    <th>Jumlah</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="daftar-transaksi">
+                <tr>
+                    <td colspan="5">Belum ada transaksi</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

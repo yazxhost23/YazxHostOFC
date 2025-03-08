@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pengguna</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard Pengguna</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="topup.html">Top-Up</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-container">
+        <h2>Selamat Datang, <span id="username"></span>!</h2>
+        <p>Saldo Anda: <strong>Rp <span id="saldo">0</span></strong></p>
+        
+        <h3>Riwayat Transaksi</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Game</th>
+                    <th>Jumlah</th>
+                    <th>Metode</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="riwayat-transaksi">
+                <tr>
+                    <td colspan="4">Belum ada transaksi</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button onclick="withdraw()">Tarik Saldo</button>
+    </section>
+
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>
